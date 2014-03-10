@@ -1,0 +1,20 @@
+importFrom(shiny, runApp)
+importFrom(methods, show)
+importFrom(stats, hclust, as.hclust, cutree)
+export(aa_plot)
+
+exportMethods(
+    "as.hclust",
+    "plot_cluster",
+    "cutree",
+    "print",
+    "show",
+    "treetab",
+    "contrim",
+    "concreate"
+)
+exportClasses(
+    "conclust",
+     "conplot_data",
+     "hclust" 
+)
